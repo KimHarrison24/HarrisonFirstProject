@@ -1,0 +1,476 @@
+@font-face {
+    font-family: Romance-Font;
+    src: url(/FONTS/Affectionately-Yours-TTF.ttf);
+}
+
+
+/*--------------|Global Design Set|--------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.first-container {
+    width: 100%;
+    height: 1415px;
+    position: absolute;
+    background-image: url(/IMG/site-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 33.5%;
+}
+
+/*--------------|Top Header Design Set|--------------*/
+
+.nav-container {
+    width: 98.9%;
+    height: 50px;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 3.5px;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+}
+
+nav ul{
+    list-style: none;
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+nav ul li a:hover{
+    background-color: lightpink;
+    color: aliceblue;
+}
+
+nav ul li a.active-menu{
+    background-color: lightpink;
+    color: aliceblue;
+}
+
+.page-logo {
+    position: absolute;
+    width: 40px;
+    margin-left: 690px;
+}
+
+.page-name {
+    font-family: Romance-Font;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 10px;
+    color: lightpink;
+    text-shadow: black 0.3px 2px;
+}
+
+#find {
+    float: right;
+    width: 450px;
+    height: 27.5px;
+    margin-top: 10px;
+    margin-right: 15px;    
+}
+
+.find-btn .find-icon{
+    position: absolute;
+    width: 26px;
+    margin-top: 10px;
+    margin-left: 1625px;
+    border: 2px solid black;
+}
+
+.find-btn .find-icon:hover{
+    background-color: lightpink;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*--------------|Slideshow Design Set|--------------*/
+
+.slishow-container {
+    width: 98.9%;
+    height: 430px;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 63.5px;
+    background-color: aliceblue;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+}
+
+/*
+
+.prev-btn {
+    background-color: lightpink;
+    opacity: 25%;
+    position: absolute;
+    width: 80px;
+    height: 430px;
+}
+
+.prev-icon {
+    width: 55px;
+    position: absolute;
+    margin-top: 187.5px;
+    margin-left: 10.5px;
+}
+
+.prev-btn:hover {
+    opacity: 95.5%;
+}
+
+*/
+
+.next-btn {
+    background-color: lightpink;
+    opacity: 25%;
+    position: absolute;
+    width: 80px;
+    height: 430px;
+    margin-left: 1588px;
+}
+
+.next-icon {
+    width: 55px;
+    position: absolute;
+    margin-top: 187.5px;
+    margin-left: 10.5px;
+}
+
+.next-btn:hover {
+    opacity: 95.5%;
+}
+
+.photocard1 {
+    width: 17.8%;
+    height: 420px;
+    position: absolute;
+    margin-left: 5.5px;
+    margin-top: 2.5px;
+}
+
+.photocard2 {
+    width: 17.8%;
+    height: 420px;
+    position: absolute;
+    margin-left: 319.5px;
+    margin-top: 2.5px;
+}
+
+.photocard3 {
+    width: 17.8%;
+    height: 420px;
+    position: absolute;
+    margin-left: 633.5px;
+    margin-top: 2.5px;
+}
+
+.photocard4 {
+    width: 17.8%;
+    height: 420px;
+    position: absolute;
+    margin-left: 949.5px;
+    margin-top: 2.5px;
+}
+
+.photocard5 {
+    width: 17.8%;
+    height: 420px;
+    position: absolute;
+    margin-left: 1265.5px;
+    margin-top: 2.5px;
+}
+
+.pic {
+    width: 290px;
+    height: 375px;
+    margin-top: 5px;
+    border-radius: 3%;
+    border-right: 7px groove lavender;
+    border-bottom: 7px groove lavender;
+    border-left: 2px groove lavender;
+    border-top: 2px groove lavender;
+}
+
+.pic-caption {
+    font-family: sans-serif;
+    text-shadow: rgb(252, 155, 171) 1.5px 2px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*--------------|Info Card Design Set|--------------*/
+
+.coupleinfo1-container {
+    width: 19.8%;
+    height: 400px;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 505px;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+    border-radius: 2.5%;
+}
+
+.anime-title1 {
+    position: absolute;
+    margin-left: 169.5px;
+    margin-top: 31.5px;
+    font-size: 13.5px;
+    text-shadow: pink 1.5px 2px;
+    font-weight: bolder;
+}
+
+.coupleinfo2-container {
+    width: 19.8%;
+    height: 400px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 505px;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+    border-radius: 2.5%;
+}
+
+.anime-title2 {
+    position: absolute;
+    margin-left: 169.5px;
+    margin-top: 68.5px;
+    font-size: 13.5px;
+    text-shadow: pink 1.5px 2px;
+    font-weight: bolder;
+}
+
+.coupleinfo3-container {
+    width: 17.8%;
+    height: 400px;
+    position: absolute;
+    margin-left: 692px;
+    margin-top: 505px;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+    border-radius: 2.5%;
+}
+
+.anime-title3 {
+    position: absolute;
+    margin-left: 155.5px;
+    margin-top: 101.5px;
+    font-size: 13.5px;
+    text-shadow: pink 1.5px 2px;
+    font-weight: bolder;
+}
+
+.coupleinfo4-container {
+    width: 19.8%;
+    height: 400px;
+    position: absolute;
+    margin-left: 1001px;
+    margin-top: 505px;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+    border-radius: 2.5%;
+}
+
+.anime-title4 {
+    position: absolute;
+    margin-left: 169.5px;
+    margin-top: 116.5px;
+    font-size: 13.5px;
+    text-shadow: pink 1.5px 2px;
+    font-weight: bolder;
+}
+
+.coupleinfo5-container {
+    width: 19.8%;
+    height: 400px;
+    position: absolute;
+    margin-left: 1343px;
+    margin-top: 505px;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+    border-radius: 2.5%;
+}
+
+.anime-title5 {
+    position: absolute;
+    margin-left: 169.5px;
+    margin-top: 61.5px;
+    font-size: 13.5px;
+    text-shadow: pink 1.5px 2px;
+    font-weight: bolder;
+}
+
+.ani-cover-pic {
+    position: absolute;
+    width: 210px;
+    height: 290px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 3%;
+    border-right: 7px groove lavender;
+    border-bottom: 7px groove lavender;
+    border-left: 2px groove lavender;
+    border-top: 2px groove lavender;
+}
+
+.about-title {
+    margin-top: 310px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.text-guide1 {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 8px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.text-answer {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 70px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.more-btn {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 255px;
+}
+
+.more-middle-btn {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 220px;
+}
+
+.more-btn:hover, .more-middle-btn:hover {
+    color: red;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+/*--------------|Developer Bio Design Set|--------------*/
+
+.about-webpage-container {
+    width: 98.9%;
+    height: 430px;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 915px;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;    
+}
+
+.title-text {
+    margin-top: 25px;
+    margin-left: 25px;
+    position: absolute;
+    font-family: cursive;
+    text-shadow: pink 1.5px 2px;
+}
+
+.about-content-container {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 170px;
+}
+
+.about-content {
+    font-size: 23px;
+    text-shadow: pink 1.5px 2px;
+    word-spacing: 2.5px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.footer {
+    width: 98.9%;
+    height: 50px;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 1355px;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+}
+
+.footer-text-content1 {
+    font-size: 18px;
+    position: absolute;
+    font-weight: bolder;
+    margin-top: 12.5px;
+    margin-left: 15px;
+    color: gray;
+}
+
+.footer-text-content2 {
+    font-size: 18px;
+    position: absolute;
+    font-weight: bolder;
+    margin-top: 12.5px;
+    margin-left: 1180px;
+    color: gray;
+}
+
+.ss-logo1 {
+    position: absolute;
+    width: 35px;
+    margin-left: 1516.5px;
+    margin-top: 6.5px;
+}
+
+.ss-logo2 {
+    position: absolute;
+    width: 35px;
+    margin-left: 1565px;
+    margin-top: 6.5px;
+}
+
+.ss-logo3 {
+    position: absolute;
+    width: 35px;
+    margin-left: 1610px;
+    margin-top: 6.5px;
+}
+
+.ss-logo1:hover, .ss-logo2:hover, .ss-logo3:hover {
+    opacity: 45%;
+    border: 2px groove black;
+    border-radius: 30%;
+}

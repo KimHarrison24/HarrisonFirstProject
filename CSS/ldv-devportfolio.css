@@ -1,0 +1,603 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.main-container {
+    width: 100%;
+    height: 880.5px;
+    position: absolute;
+    background-image: url(/IMG/site-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 33.5%;
+}
+
+/*--------------|Top Header Design Set|--------------*/
+
+.nav-container {
+    width: 98.9%;
+    height: 50px;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 3.5px;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+}
+
+nav ul{
+    list-style: none;
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+nav ul li a:hover{
+    background-color: lightpink;
+    color: aliceblue;
+}
+
+nav ul li a.active-menu{
+    background-color: lightpink;
+    color: aliceblue;
+}
+
+.page-logo {
+    position: absolute;
+    width: 40px;
+    margin-left: 690px;
+}
+
+.page-name {
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 10px;
+    color: lightpink;
+    text-shadow: black 0.3px 2px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*--------------|About Developer Design Set|--------------*/
+.about-developer-container {
+    width: 98.9%;
+    height: 745.5px;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 63.5px;
+    background-color: aliceblue;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+}
+
+.title-text1 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.profile-column1 {
+    width: 20.23%;
+    height: 675px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 59.5px;
+    background-color: aliceblue;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+}
+
+.dev-pic {
+    position: absolute;
+    width: 210px;
+    height: 290px;
+    margin-top: 54.5px;
+    margin-left: 55.5px;
+    border-radius: 10%;
+    border: 0.5px solid black;
+}
+
+.dev-pic-border {
+    width: 95%;
+    height: 390px;
+    margin-left: 6.5px;
+    margin-top: 6.5px;
+}
+
+.p-info-icon {
+    width: 12.5px;
+}
+
+.title-text2 {
+    text-shadow: pink 1.5px 2px;
+}
+
+.line1 {
+    margin-top: 17.5px;
+    margin-bottom: 0;
+}
+
+.name-indi {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.name-value {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 18px;
+    margin-left: 75px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.bd-indi {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 15px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.bd-value {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 48px;
+    margin-left: 100px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.add-indi {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 15px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.add-value {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 78px;
+    margin-left: 100px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.nationality-indi {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 15px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.nationality-value {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 108px;
+    margin-left: 123.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.other-names-indi {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 15px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.other-names-value {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 143.5px;
+    margin-left: 30px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.profile-column2 {
+    width: 77.1%;
+    height: 675px;
+    position: absolute;
+    margin-left: 363.5px;
+    margin-top: 59.5px;
+    background-color: aliceblue;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+}
+
+.o-info-icon {
+    width: 27.5px;
+    margin-left: 480px;
+    margin-top: 5px;
+    position: absolute;
+    vertical-align: middle;
+}
+
+.title-text3 {
+    margin-top: 5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.line2 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.fun-facts-indi {
+    position: absolute;
+    margin-top: 12.5px;
+    margin-left: 15px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.fun-facts-indent-value {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 23.5px;
+    margin-left: 100px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.fun-facts-value1 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 44.5px;
+    margin-left: 38.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.fun-facts-value2 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 66.5px;
+    margin-left: 38.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.skills-indi {
+    position: absolute;
+    margin-top: 99.5px;
+    margin-left: 15px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.skills-value1 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 109.5px;
+    margin-left: 38.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.skills-value2 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 109.5px;
+    margin-left: 380px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.skills-value3 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 109.5px;
+    margin-left: 610px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.skills-value4 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 109.5px;
+    margin-left: 875px;
+    text-shadow:pink 1.5px 2px;
+}
+
+.skills-value5 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 113.5px;
+    margin-left: 38.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.skills-value6 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 113.5px;
+    margin-left: 380px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.skills-value7 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 113.5px;
+    margin-left: 610px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.hobbies-indi {
+    position: absolute;
+    margin-top: 144.5px;
+    margin-left: 15px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.hobbies-value1 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 153.5px;
+    margin-left: 38.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.hobbies-value2 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 153.5px;
+    margin-left: 380px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.hobbies-value3 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 153.5px;
+    margin-left: 610px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.hobbies-value4 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 153.5px;
+    margin-left: 875px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.hobbies-value5 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 175.5px;
+    margin-left: 38.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.hobbies-value6 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 175.5px;
+    margin-left: 380px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.social-acc-indi {
+    position: absolute;
+    margin-top: 205.5px;
+    margin-left: 15px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.social-acc-value1 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 215.5px;
+    margin-left: 38.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.gmail-logo1 {
+    position: absolute;
+    margin-top: 215.5px;
+    margin-left: 347.5px;
+    width: 23.5px;
+}
+
+.social-acc-value2 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 238.5px;
+    margin-left: 38.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.gmail-logo2 {
+    position: absolute;
+    margin-top: 238.5px;
+    margin-left: 347.5px;
+    width: 23.5px;
+}
+
+.social-acc-value3 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 260.5px;
+    margin-left: 38.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.gmail-logo3 {
+    position: absolute;
+    margin-top: 260.5px;
+    margin-left: 347.5px;
+    width: 23.5px;
+}
+
+.social-acc-value4 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 215.5px;
+    margin-left: 453.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.fb-logo1 {
+    position: absolute;
+    margin-top: 215.5px;
+    margin-left: 753.5px;
+    width: 19.5px;
+}
+
+.social-acc-value5 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 238.5px;
+    margin-left: 453.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.fb-logo2 {
+    position: absolute;
+    margin-top: 238.5px;
+    margin-left: 753.5px;
+    width: 19.5px;
+}
+
+.social-acc-value6 {
+    position: absolute;
+    font-size: 17.5px;
+    margin-top: 215.5px;
+    margin-left: 855.5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.insta-logo1 {
+    position: absolute;
+    margin-top: 215.5px;
+    margin-left: 1006.5px;
+    width: 19.5px;
+}
+
+.developer-motto-container {
+    width: 97.2%;
+    height: 230px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 293.5px;
+    background-color: aliceblue;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px dashed gray;
+    border-radius: 65px;
+}
+
+.developer-motto1 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 42.5px;
+    font-size: 40px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.developer-motto2 {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 62.5px;
+    font-size: 40px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.developer-motto3 {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 54.5px;
+    font-size: 40px;
+    text-shadow: pink 1.5px 2px;
+    opacity: 7.5%;
+}
+
+.developer-motto2:hover {
+    content-visibility: hidden;
+}
+
+.line3 {
+    margin-top: 150px;
+    text-shadow: pink 1.5px 2px;
+}
+
+.motto-indi {
+    margin-top: 5px;
+    text-shadow: pink 1.5px 2px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.footer {
+    width: 98.9%;
+    height: 50px;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 820px;
+    background-color: lavenderblush;
+    opacity: 92.5%;
+    border: 3px groove lavender;
+}
+
+.footer-text-content1 {
+    font-size: 18px;
+    position: absolute;
+    font-weight: bolder;
+    margin-top: 12.5px;
+    margin-left: 15px;
+    color: gray;
+}
+
+.footer-text-content2 {
+    font-size: 18px;
+    position: absolute;
+    font-weight: bolder;
+    margin-top: 12.5px;
+    margin-left: 1180px;
+    color: gray;
+}
+
+.ss-logo1 {
+    position: absolute;
+    width: 35px;
+    margin-left: 1516.5px;
+    margin-top: 6.5px;
+}
+
+.ss-logo2 {
+    position: absolute;
+    width: 35px;
+    margin-left: 1565px;
+    margin-top: 6.5px;
+}
+
+.ss-logo3 {
+    position: absolute;
+    width: 35px;
+    margin-left: 1610px;
+    margin-top: 6.5px;
+}
+
+.ss-logo1:hover, .ss-logo2:hover, .ss-logo3:hover {
+    opacity: 45%;
+    border: 2px groove black;
+    border-radius: 30%;
+}
